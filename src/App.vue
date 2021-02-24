@@ -110,6 +110,7 @@ a {
   a {
     margin-top: 12px;
     margin-left: 0;
+    width: 100vw;
   }
 }
 </style>
