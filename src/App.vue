@@ -52,7 +52,6 @@ export default {
 body {
   background-color: #fedfe1;
   margin: 0;
-  /* box-sizing: border-box; */
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -110,7 +109,7 @@ a {
   a {
     margin-top: 12px;
     margin-left: 0;
-    width: 100vw;
+    width: 100%;
   }
 }
 </style>
