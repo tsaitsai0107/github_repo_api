@@ -48,7 +48,7 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Zilla+Slab&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Zilla+Slab&display=swap');
 body {
   background-color: #fedfe1;
   margin: 0;
@@ -63,7 +63,7 @@ body {
 
 h1 {
   text-align: center;
-  font-family: "Source Code Pro", Helvetica, Arial, sans-serif;
+  font-family: 'Source Code Pro', Helvetica, Arial, sans-serif;
 }
 
 .repositories {
@@ -72,7 +72,7 @@ h1 {
   background-color: #f8c3cd;
   height: 500px;
   overflow: scroll;
-  font-family: "Zilla Slab", Helvetica, Arial, sans-serif;
+  font-family: 'Zilla Slab', Helvetica, Arial, sans-serif;
 }
 
 .repository {
@@ -90,6 +90,26 @@ h1 {
 }
 
 a {
+  margin-left: 20px;
   color: #777777;
+  word-wrap: break-word;
+  width: 20vw;
+}
+
+@media (max-width: 991px) {
+  .text {
+    word-wrap: break-word;
+  }
+}
+
+@media (max-width: 767px) {
+  .repository {
+    flex-direction: column;
+  }
+
+  a {
+    margin-top: 12px;
+    margin-left: 0;
+  }
 }
 </style>

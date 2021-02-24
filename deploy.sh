@@ -10,6 +10,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/chou0728/eric-project.git master:gh-pages
+git push -f https://github.com/tsaitsai0107/github_repo_api.git master:gh-pages
 
 cd -
